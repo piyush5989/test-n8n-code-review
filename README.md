@@ -21,13 +21,6 @@ Sample repo to test AI code review capabilities (n8n workflow + Cursor).
 
 4. **Check the PR** for the AI-generated review comment (readability, security, maintainability, inline-style suggestions).
 
-## Pointing n8n at this repo
-
-The workflow in `code-reviewer.json` is configured for repo `hi-all`. To use this repo:
-
-- In n8n, edit the workflow and set **repository** to `test-n8n-code-review` (and owner to your GitHub user/org).
-- Ensure the **GitHub trigger** and **Comment review on PR** node use the same repo.
-- Re-save and activate the workflow.
 
 ## Intentional issues in `feature/sample-for-ai-review`
 
